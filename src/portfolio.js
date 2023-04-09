@@ -20,28 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Karthic Palaniappan",
+  title: "Hello folks! I'm Karthic. Welcome to a website about myself!",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I'm currently working on Machine Learning projects at AMD, mainly working on enhancing heuristic algorithms with the use of ML, optimizing them to be truely data-driven. I'm also passionate about improving ML infrastructure, having worked on tools to delineate black-box models like Random Forests, integrating experiment tracking and model versioning into the workflow, and packaging models in docker for inference. I have one [research publication](https://www.nature.com/articles/s41598-021-93258-w) in the development of tools to aid Cognitive Enhancement, and have applied for two patents in the field of Machine Learning in Electronic Design Automation. I'm also enthusiastic about full-stack development and staying current with latest trends in the field."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1iLIyo4zrcFssVxviNw4Gf2BhG_K0aW3p/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  github: "https://github.com/karthic25",
+  linkedin: "https://www.linkedin.com/in/karthicp/",
+  gmail: "karthic2507@gmail.com",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -49,14 +43,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "I currently work on solving problems in the "Electronic Design Automation" (EDA) domain using machine learning. The state-of-the-art for most of these problems is otherwise based on heuristic algorithms, since the size of the search space to find the most optimal solution increases exponentially with the number of parameters to tune. The inherent complexity of such problems makes it immensely exciting to formulate and implement solutions using ML techniques, and efficient software pipelines for packaging the same into [Vivado ML Edition](https://www.xilinx.com/products/design-tools/vivado.html) for use by customers.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Optimizing compute resources of integrated circuit (IC) design runs using Machine Learning (ML)"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Optimizing placement of IC designs using ML"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Debug toolkit to automate analysis of behaviour of black-box models"
     )
   ],
 
@@ -126,23 +120,16 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Indian Institute of Technology, Kanpur",
+      logo: require("./assets/images/IITKLogo.png"),
+      subHeader: "B.Tech, Biological Sciences and Bioengineering",
+      duration: "July 2016 - May 2020",
+      desc: "Worked in Lab of Neural Systems under Prof. Nitin Gupta to develop computational tools to improve working memory of children with ASD.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Part of a [research paper](https://www.nature.com/articles/s41598-021-93258-w) published for my work in Lab of Neural Systems",
+        "Completed research paper based courses such as Bioinformatics and Computational Biology, Human Molecular Genetics with grade A.",
+        "Achieved grade A* in Tissue Engineering, offered to outstanding students."
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -150,7 +137,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -174,29 +161,25 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Software Development Engineer II",
+      company: "AMD/Xilinx",
+      companylogo: require("./assets/images/AMD.png"),
+      date: "July 2020 - Present",
+      desc: "Work on cutting-edge technologies in the field of Machine Learning in Electronic Design Automation"
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Machine Learning Engineer Intern",
+      company: "Xilinx",
+      companylogo: require("./assets/images/Xilinx.png"),
+      date: "Summer 2019",
+      desc: "Predicting design compile-time using instruction count."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Backend Developer Intern",
+      company: "Tagalys",
+      companylogo: require("./assets/images/Tagalys.png"),
+      date: "Winter 2018",
+      desc: "Building web-tools to enhance storefront of e-commerce shops on Shopify, by extracting information from user interactions and applying analytics for the same."
     }
   ]
 };
@@ -213,29 +196,18 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Some projects that I'm proud of!",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/labOfNeuralSystems.webp"),
+      projectName: "Computational tools for Cognitive Development",
+      projectDesc: "Developed interactive, adaptive, minimalistic games to improve working memory of children diagnosed with ASD.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Read the paper",
+          url: "https://www.nature.com/articles/s41598-021-93258-w"
         }
         //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
       ]
     }
   ],
@@ -252,52 +224,25 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Three impact awards for excellence at work",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+        "Received impact awards from my Manager, Senior Director, and Vice President for outstanding contributions across multiple software release cycles",
+      image: require("./assets/images/Xilinx.png"),
+      imageAlt: "Xilinx Logo"
     },
     {
-      title: "Google Assistant Action",
+      title: "Top 6% among 0.2 million candidates appeared for JEE Advanced, 2016",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+        "One of the toughest, most competitive exams in the world! Results from the exam are used for admission into institutes of national importance such as IITs.",
+      image: require("./assets/images/IITK.png"),
+      imageAlt: "IIT Kanpur Logo"
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      title: "Top 2% among 1.5 million candidates appeared for JEE Mains, 2016",
+      subtitle: "Results from the exam are used for admission into institutes of national importance such as NITs and IIITs.",
+      image: require("./assets/images/IITK.png"),
+      imageAlt: "IIT Kanpur Logo"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -324,7 +269,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -338,40 +283,34 @@ const talkSection = {
   talks: [
     {
       title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: galse // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "karthic2507@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
