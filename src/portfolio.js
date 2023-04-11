@@ -43,7 +43,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I currently work on solving problems in the "Electronic Design Automation" (EDA) domain using machine learning. The state-of-the-art for most of these problems is otherwise based on heuristic algorithms, since the size of the search space to find the most optimal solution increases exponentially with the number of parameters to tune. The inherent complexity of such problems makes it immensely exciting to formulate and implement solutions using ML techniques, and efficient software pipelines for packaging the same into [Vivado ML Edition](https://www.xilinx.com/products/design-tools/vivado.html) for use by customers.",
+  subTitle: "I currently work on solving problems in the 'Electronic Design Automation' (EDA) domain using machine learning. The state-of-the-art for most of these problems is otherwise based on heuristic algorithms, since the size of the search space to find the most optimal solution increases exponentially with the number of parameters to tune. The inherent complexity of such problems makes it immensely exciting to formulate and implement solutions using ML techniques, and efficient software pipelines for packaging the same into [Vivado ML Edition](https://www.xilinx.com/products/design-tools/vivado.html) for use by customers.",
   skills: [
     emoji(
       "⚡ Optimizing compute resources of integrated circuit (IC) design runs using Machine Learning (ML)"
@@ -121,7 +121,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Indian Institute of Technology, Kanpur",
-      logo: require("./assets/images/IITKLogo.png"),
+      logo: require("./assets/images/IITK.png"),
       subHeader: "B.Tech, Biological Sciences and Bioengineering",
       duration: "July 2016 - May 2020",
       desc: "Worked in Lab of Neural Systems under Prof. Nitin Gupta to develop computational tools to improve working memory of children with ASD.",
